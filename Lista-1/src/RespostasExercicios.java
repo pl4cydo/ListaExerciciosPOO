@@ -2,7 +2,9 @@ public class RespostasExercicios {
     public static void main(String[] args) throws Exception {
         // System.out.println("Hello, World!");
         // System.out.println(OperadoresTiposVariaveis1(2));
-        Lacos2();
+        // Lacos2();
+        // int[] bola = {1,1,14,1,1};
+        // System.out.println(Array1(bola));
     }
 
     /*
@@ -229,9 +231,20 @@ public class RespostasExercicios {
      */
 
     public static int Array1(int[] array) {
-
-        
-        return 0;
+        int soma = 0;
+        for(int i = 0; i < array.length; i++) {
+            soma = soma + array[i];
+        }
+        return soma / array.length;
     }
+
+    /* 
+     * Questão 2: Implementar um subprograma que dado um array de duas dimensões, computa a média dos seus
+     * elementos e retorna quantos elementos a cima da média ele possui
+     * 
+     * Ajuda - Sugestões de pesquisa para resolver essa questão:
+     */
+
+    //  public static  
 }
 
