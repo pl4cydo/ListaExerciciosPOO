@@ -1,14 +1,12 @@
 package com.lista1;
 
-public class RespostasExercicios {
-
+public class QuestoesExercicio {
     /*
 	 * Utilize apenas o método main para testar a implementação dos métodos. 
 	 * Não se faz necessário implementar dentro do escopo do método.
 	 */
     public static void main(String[] args) throws Exception {
-        int[] j = {2,3,4,5};
-       System.out.println( Array1(j));;
+       
     }
 
     /*
@@ -25,7 +23,7 @@ public class RespostasExercicios {
      * 5. Trabalhem com o tipo primitivo que o metodo retorna
      */
     public static int OperadoresTiposVariaveis1(int x) {
-        return (int) (Math.pow(x, 3) + (Math.pow(x, 2) + (3 * x)) - 25);
+        return 0;
     }
 
     /*
@@ -40,7 +38,7 @@ public class RespostasExercicios {
      */
 
     public static int OperadoresTiposVariaveis2(int x, int z) {
-        return (int) (Math.pow(x, 3) + Math.pow(z, 2) + (3 * x * z) - 25);
+        return 0;
     }
 
     /*
@@ -55,16 +53,12 @@ public class RespostasExercicios {
      */
 
     public static int ExecucaoCondicional1(int num1, int num2) {
-        if (num1 > num2)
-            return num1;
-        else
-            return num2;
+        return 0;
     }
 
     /*
      * Questão 2: Implemente um programa que converte texto em um número inteiro
-     * (“um” -> 1, “dois” -> 2, até o número “cinco”), caso exista alguma outra 
-     * entrada coloque -> 0
+     * (“um” -> 1, “dois” -> 2, até o número “cinco”)
      * 
      * Ajuda - Sugestões de pesquisa para resolver essa questão:
      * 1. Tipos primitivos em Java para entender o int.
@@ -76,19 +70,7 @@ public class RespostasExercicios {
      */
 
     public static int ExecucaoCondicional2(String num) {
-        if (num == "um") {
-            return 1;
-        } else if (num == "dois") {
-            return 2;
-        } else if (num == "tres") {
-            return 3;
-        } else if (num == "quatro") {
-            return 4;
-        } else if (num == "cinco") {
-            return 5;
-        } else {
-            return 0;
-        }
+        return 0;
     }
 
     /*
@@ -104,23 +86,12 @@ public class RespostasExercicios {
      */
 
     public static int OperadoesLogicos1(int num1, int num2, int num3, int num4) {
-        int count = 0;
-
-        if (num1 % 5 == 0 && num1 % 7 == 0)
-            count++;
-        if (num2 % 5 == 0 && num2 % 7 == 0)
-            count++;
-        if (num3 % 5 == 0 && num3 % 7 == 0)
-            count++;
-        if (num4 % 5 == 0 && num4 % 7 == 0)
-            count++;
-
-        return count;
+        return 0;
     }
 
     /*
      * Questão 2: Implemente um programa capaz de identificar se há exatamente
-     * (apenas) um número PAR entre três número dados
+     * (apenas) um número par entre três número dados
      * 
      * Ajuda - Sugestões de pesquisa para resolver essa questão:
      * 1. O que é um metodo do tipo Boolean
@@ -128,22 +99,14 @@ public class RespostasExercicios {
      */
 
     public static Boolean OperadoresLogicos2(int num1, int num2, int num3) {
-        if (num1 % 2 == 0 && num2 % 2 != 0 && num3 % 2 != 0) {
-            return true;
-        } else if (num1 % 2 != 0 && num2 % 2 == 0 && num3 % 2 != 0) {
-            return true;
-        } else if (num1 % 2 != 0 && num2 % 2 != 0 && num3 % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return true;
     }
 
     /*
      * Laços
      * 
      * Questão 1: Implemente um programa capaz de retornar a soma dos quadrados dos
-     * 10 primeiros números inteiros(coloque na entrada o numero de parada do for)
+     * 10 primeiros números inteiros
      * 
      * Ajuda - Sugestões de pesquisa para resolver essa questão:
      * 1. Utilize a entrada como ponto de partida do laço
@@ -153,18 +116,12 @@ public class RespostasExercicios {
      */
 
     public static int Lacos1(int num) {
-        int soma = 0;
-        for (int i = 0; i <= num; i++) {
-            soma = (int) (soma + Math.pow(i, 2));
-        }
-        return soma;
+        return 0;
     }
 
     /*
      * Questão 2: Implemente um programa capaz de imprimir os números negativos
-     * múltiplos de 5 até -100. Imprima os numeros na mesma linha separados por
-     * virgula. Ex: 1,2,3,4 
-     * Zero não é multiplo
+     * múltiplos de 5 até -100
      * 
      * Ajuda - Sugestões de pesquisa para resolver essa questão:
      * 1. Pesquise como Imprimir no console em Java
@@ -172,14 +129,7 @@ public class RespostasExercicios {
      */
 
     public static void Lacos2() {
-        for (int i = 1; i >= -100; i--) {
-            if (i % 5 == 0 && i != 0) {
-                if(i != -100)
-                    System.out.print(i + ",");
-                else 
-                    System.out.print(i);
-            }
-        }
+        
     }
 
     /*
@@ -197,12 +147,12 @@ public class RespostasExercicios {
      * 1. Como criar metodos na mesma classe que existe o main
      * 2. Qual a diferença entre um metodo normal e um metodo static
      * 
+     * 
+     * O espaço a baixo está destinado ao metodo a ser criado. 
      */
 
-    public static int Metodo1(int x) {
-        int f = (int) (Math.pow(x, 3) - (4 * x) + 1);
-        return f;
-    }
+
+
 
     /*
      * Questão 2: Implementar uma função que recebe como parâmetro quatro números e retorna 
@@ -216,17 +166,12 @@ public class RespostasExercicios {
      * 1. Como criar metodos na mesma classe que existe o main
      * 2. Qual a diferença entre um metodo normal e um metodo static
      * 
+     * O espaço a baixo está destinado ao metodo a ser criado. 
      */
 
-    public static int Metodo2(int num1, int num2, int num3, int num4) {
-        int count = 0;
-        if(num1 % 2 != 0) count++;
-        if(num2 % 2 != 0) count++;
-        if(num3 % 2 != 0) count++;
-        if(num4 % 2 != 0) count++;
+    
 
-        return count;
-    }
+     
 
     /*
      * Vetores e Arrays
@@ -242,21 +187,11 @@ public class RespostasExercicios {
      */
 
     public static int Array1(int[] array) {
-        int soma = 0;
-        int count = 0;
-        int media;
-        for(int i = 0; i < array.length; i++) {
-            soma = soma + array[i];
-        }
-        media = soma / array.length;
-        for(int i = 0; i < array.length; i++) {
-            if (array[i] > media) {count++;};
-        }
-        return count;
+        return 0;
     }
 
     /* 
-     * Questão 2: Implementar um subprograma que dado um ARRAY DE DUAS DIMENSÕES, computa a média dos seus
+     * Questão 2: Implementar um subprograma que dado um array de duas dimensões, computa a média dos seus
      * elementos e retorna quantos elementos a cima da média ele possui
      * 
      * Ajuda - Sugestões de pesquisa para resolver essa questão:
@@ -264,23 +199,6 @@ public class RespostasExercicios {
      */
 
      public static int Array2(int[][] arrray) {
-        int count = 0;
-        int soma = 0;
-        int media;
-        int result = 0;
-        for(int i = 0; i < arrray.length; i++) {
-            for(int j = 0; j < arrray[i].length; j++) {
-                count++;
-                soma = soma + arrray[i][j];
-            }
-        }
-        media = soma / count;
-        for(int i = 0; i < arrray.length; i++) {
-            for(int j = 0; j < arrray[i].length; j++) {
-                if(arrray[i][j] > media) result++;
-            }
-        }
-        return result;
+        return 0;
      }
 }
-
