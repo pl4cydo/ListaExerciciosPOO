@@ -24,7 +24,7 @@ public class RespostasExercicios {
      * 4. como elevar numeros em Java e qual o retorno dessa operação
      * 5. Trabalhem com o tipo primitivo que o metodo retorna
      */
-    public static int OperadoresTiposVariaveis1(int x) {
+    public static int operadoresTiposVariaveis1(int x) {
         return (int) (Math.pow(x, 3) + (Math.pow(x, 2) + (3 * x)) - 25);
     }
 
@@ -39,7 +39,7 @@ public class RespostasExercicios {
      * 5. Trabalhem com o tipo primitivo que o metodo retorna
      */
 
-    public static int OperadoresTiposVariaveis2(int x, int z) {
+    public static int operadoresTiposVariaveis2(int x, int z) {
         return (int) (Math.pow(x, 3) + Math.pow(z, 2) + (3 * x * z) - 25);
     }
 
@@ -54,7 +54,7 @@ public class RespostasExercicios {
      * 2. Entenda if em Java, é semelhante a JavaScript
      */
 
-    public static int ExecucaoCondicional1(int num1, int num2) {
+    public static int execucaoCondicional1(int num1, int num2) {
         if (num1 > num2)
             return num1;
         else
@@ -75,7 +75,7 @@ public class RespostasExercicios {
      * 5. Qual a diferença entre aspas simples e duplas no Java
      */
 
-    public static int ExecucaoCondicional2(String num) {
+    public static int execucaoCondicional2(String num) {
         if (num == "um") {
             return 1;
         } else if (num == "dois") {
@@ -103,7 +103,7 @@ public class RespostasExercicios {
      * Java?
      */
 
-    public static int OperadoesLogicos1(int num1, int num2, int num3, int num4) {
+    public static int operadoesLogicos1(int num1, int num2, int num3, int num4) {
         int count = 0;
 
         if (num1 % 5 == 0 && num1 % 7 == 0)
@@ -127,7 +127,7 @@ public class RespostasExercicios {
      * 2. Existem maneiras de fazer essa questão mas utilize operadores lógicos
      */
 
-    public static Boolean OperadoresLogicos2(int num1, int num2, int num3) {
+    public static Boolean operadoresLogicos2(int num1, int num2, int num3) {
         if (num1 % 2 == 0 && num2 % 2 != 0 && num3 % 2 != 0) {
             return true;
         } else if (num1 % 2 != 0 && num2 % 2 == 0 && num3 % 2 != 0) {
@@ -152,7 +152,7 @@ public class RespostasExercicios {
      * 4. Pesquise sobre o conceito de Cast em Java
      */
 
-    public static int Lacos1(int num) {
+    public static int lacos1(int num) {
         int soma = 0;
         for (int i = 0; i <= num; i++) {
             soma = (int) (soma + Math.pow(i, 2));
@@ -171,7 +171,7 @@ public class RespostasExercicios {
      * 2. O que é um metodo com o retorno Void
      */
 
-    public static void Lacos2() {
+    public static void lacos2() {
         for (int i = 1; i >= -100; i--) {
             if (i % 5 == 0 && i != 0) {
                 if(i != -100)
@@ -199,7 +199,7 @@ public class RespostasExercicios {
      * 
      */
 
-    public static int Metodo1(int x) {
+    public static int metodo1(int x) {
         int f = (int) (Math.pow(x, 3) - (4 * x) + 1);
         return f;
     }
@@ -218,7 +218,7 @@ public class RespostasExercicios {
      * 
      */
 
-    public static int Metodo2(int num1, int num2, int num3, int num4) {
+    public static int metodo2(int num1, int num2, int num3, int num4) {
         int count = 0;
         if(num1 % 2 != 0) count++;
         if(num2 % 2 != 0) count++;
@@ -241,7 +241,7 @@ public class RespostasExercicios {
      * 4. Como receber um array de um tipo primitivo como parametro
      */
 
-    public static int Array1(int[] array) {
+    public static int array1(int[] array) {
         int soma = 0;
         int count = 0;
         int media;
@@ -263,7 +263,7 @@ public class RespostasExercicios {
      * 1.
      */
 
-     public static int Array2(int[][] arrray) {
+     public static int array2(int[][] arrray) {
         int count = 0;
         int soma = 0;
         int media;
