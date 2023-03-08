@@ -22,7 +22,7 @@ public class QuestoesExercicio {
      * 4. como elevar numeros em Java e qual o retorno dessa operação
      * 5. Trabalhem com o tipo primitivo que o metodo retorna
      */
-    public static int OperadoresTiposVariaveis1(int x) {
+    public static int operadoresTiposVariaveis1(int x) {
         return 0;
     }
 
@@ -37,7 +37,7 @@ public class QuestoesExercicio {
      * 5. Trabalhem com o tipo primitivo que o metodo retorna
      */
 
-    public static int OperadoresTiposVariaveis2(int x, int z) {
+    public static int operadoresTiposVariaveis2(int x, int z) {
         return 0;
     }
 
@@ -52,7 +52,7 @@ public class QuestoesExercicio {
      * 2. Entenda if em Java, é semelhante a JavaScript
      */
 
-    public static int ExecucaoCondicional1(int num1, int num2) {
+    public static int execucaoCondicional1(int num1, int num2) {
         return 0;
     }
 
@@ -69,7 +69,7 @@ public class QuestoesExercicio {
      * 5. Qual a diferença entre aspas simples e duplas no Java
      */
 
-    public static int ExecucaoCondicional2(String num) {
+    public static int execucaoCondicional2(String num) {
         return 0;
     }
 
@@ -85,7 +85,7 @@ public class QuestoesExercicio {
      * Java?
      */
 
-    public static int OperadoesLogicos1(int num1, int num2, int num3, int num4) {
+    public static int operadoesLogicos1(int num1, int num2, int num3, int num4) {
         return 0;
     }
 
@@ -98,7 +98,7 @@ public class QuestoesExercicio {
      * 2. Existem maneiras de fazer essa questão mas utilize operadores lógicos
      */
 
-    public static Boolean OperadoresLogicos2(int num1, int num2, int num3) {
+    public static Boolean operadoresLogicos2(int num1, int num2, int num3) {
         return true;
     }
 
@@ -115,7 +115,7 @@ public class QuestoesExercicio {
      * 4. Pesquise sobre o conceito de Cast em Java
      */
 
-    public static int Lacos1(int num) {
+    public static int lacos1(int num) {
         return 0;
     }
 
@@ -128,7 +128,7 @@ public class QuestoesExercicio {
      * 2. O que é um metodo com o retorno Void
      */
 
-    public static void Lacos2() {
+    public static void lacos2() {
         
     }
 
@@ -186,7 +186,7 @@ public class QuestoesExercicio {
      * 4. Como receber um array de um tipo primitivo como parametro
      */
 
-    public static int Array1(int[] array) {
+    public static int array1(int[] array) {
         return 0;
     }
 
@@ -198,7 +198,7 @@ public class QuestoesExercicio {
      * 1.
      */
 
-     public static int Array2(int[][] arrray) {
+     public static int array2(int[][] arrray) {
         return 0;
      }
 }
